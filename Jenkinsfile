@@ -6,10 +6,11 @@ pipeline {
             steps {
                 script {
                     echo "frontend"
+                    echo "docker build"
+                    echo "kubernetes deployment on ec2-instance"
                 }
             }
         }
         
-        // Add more stages as needed
     }
 }
