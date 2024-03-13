@@ -6,10 +6,11 @@ pipeline {
             steps {
                 script {
                     echo "backend branch"
+                    echo "docker build"
+                    echo "kubernetes deploy on EKS"
                 }
             }
         }
         
-        // Add more stages as needed
     }
 }
