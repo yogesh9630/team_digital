@@ -5,7 +5,7 @@ pipeline {
         stage('Print Branch Name') {
             steps {
                 script {
-                    echo "backend branch"
+                    echo "frontend"
                 }
             }
         }
